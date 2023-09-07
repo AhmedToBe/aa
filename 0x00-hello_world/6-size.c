@@ -1,4 +1,4 @@
-#include <stio.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -8,7 +8,7 @@
  * Return: always 0 (success)
 */
 
-int main(void)
+uint main(void)
 {
 	printf("Size of a char: %u byte(s)\n", sizeof(char));
 	printf("Size of an int: %u byte(s)\n", sizeof(int));
