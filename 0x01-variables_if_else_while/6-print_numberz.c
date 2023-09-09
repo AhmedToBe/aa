@@ -1,25 +1,18 @@
-#include<stdio.h>
-
+#include <stdio.h>
 /**
- * main - Entry point
+ * main - ssss
  *
- * Description: print 0-9 using putchar
- *		while using int variable
+ * Description: sssss
  *
- * ٌReturn: Always 0 (success)
+ * Return: ssssss
 */
-
 int main(void)
 {
-	int digit = 0;
-
-	while (digit <= 9)
-	{
-		/*convert digit to ASCII representation*/
-		putchar(digit + '0');
-		digit++;
-	}
-	putchar("\n");
-	return (0);
+int i;
+for (i = 0; i <= 9; i++)
+{
+putchar('0' + i);
 }
-
+putchar('\n');
+return (0);
+}
