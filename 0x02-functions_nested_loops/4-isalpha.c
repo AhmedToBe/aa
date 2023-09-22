@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower - his fucntion prints the alphabet from a to z
+ * _isalpha - his fucntion prints the alphabet from a to z
  *
  * @c: edfwfef
  *
@@ -8,9 +8,11 @@
  *
  * Return: Always 0.
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 if (c >= 97 && c <= 122)
+return (1);
+if (c >= 65 && c <= 90)
 return (1);
 return (0);
 }
